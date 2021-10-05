@@ -6,6 +6,6 @@
 #include "P2.h"
 using namespace std;
 
-TEST_CASE("Question #2_1") {
+TEST_CASE("Pregunta #2") {
     execute_test("test_2_1.in", pregunta_2);
 }
