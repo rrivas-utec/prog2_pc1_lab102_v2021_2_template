@@ -12,31 +12,18 @@ include_directories(.)
 include_directories(tests)
 include_directories(../tools/catch)
 
-# Source files
-file(GLOB source_files
-        ../src/*.h
-        ../src/*.cpp
-        )
-
-foreach(full_file_name ${source_files})
-    configure_file(${full_file_name} ${CMAKE_CURRENT_SOURCE_DIR}/tests/ COPYONLY)
-endforeach(full_file_name)
-
 # Project files
 file(GLOB project_files
         tests/catch_test_*/*.cpp
         tests/*.h
         tests/*.cpp
+        ../src/*.h
+        ../src/*.cpp
         )
 
 add_executable(${PROJECT_NAME}
         ${project_files}
     )
-
-if(UNIX AND NOT APPLE)
-    find_package(TBB)
-    target_link_libraries(${PROJECT_NAME} TBB::tbb)
-endif()
 
 # Test files
 file(GLOB test_files

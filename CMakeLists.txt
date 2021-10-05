@@ -16,10 +16,5 @@ add_executable(${PROJECT_NAME}
         ${source_files}
     )
 
-if(UNIX AND NOT APPLE)
-    find_package(TBB)
-    target_link_libraries(${PROJECT_NAME} TBB::tbb)
-endif()
-
 add_subdirectory(autograder)
 
