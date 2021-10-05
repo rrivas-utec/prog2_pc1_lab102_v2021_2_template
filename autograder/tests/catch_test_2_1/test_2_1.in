@@ -1,0 +1,17 @@
+#input
+    Hola Mundo
+#output
+    H0l4 M2nd0
+#endtest
+
+#input
+    Ciencias de la Computacion
+#output
+    C13nc14s d3 l4 C0mp2t4c10n
+#endtest
+
+#input
+    Universidad de Ingenieria y Tecnologia - UTEC
+#output
+    2n1v3rs1d4d d3 1ng3n13r14 y T3cn0l0g14 - 2T3C
+#endtest

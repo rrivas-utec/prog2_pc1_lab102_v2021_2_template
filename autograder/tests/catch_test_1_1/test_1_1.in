@@ -1,0 +1,27 @@
+#input
+    37
+    38
+#output
+    1
+#endtest
+
+#input
+    537
+    538
+#output
+    2
+#endtest
+
+#input
+    4537
+    6538
+#output
+    3
+#endtest
+
+#input
+    11
+    11
+#output
+    0
+#endtest
