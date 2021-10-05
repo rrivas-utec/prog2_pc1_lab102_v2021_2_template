@@ -141,10 +141,10 @@ Universidad de Ingenieria y Tecnologia - UTEC
 
 La superficie de la Tierra es curva y la distancia entre 2 longitudes varía con la latitud, por lo que encontrar la distancia entre 2 puntos es más complicado que simplemente usar el teorema de Pitágoras.
 
-![img.png](img.png)
+![img.png](tools/img/img.png)
 
-Dados ![img_2.png](img_2.png) que son la latitud y longitud de 2 puntos en la Tierra. La distancia entre ambos puntos en kilómetros se calcula.
-![img_3.png](img_3.png)
+Dados ![img_2.png](tools/img/img_2.png) que son la latitud y longitud de 2 puntos en la Tierra. La distancia entre ambos puntos en kilómetros se calcula.
+![img_3.png](tools/img/img_3.png)
 donde:  
 `6371.01` es el radio de la tierra en kilómetros.
 
