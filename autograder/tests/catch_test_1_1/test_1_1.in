@@ -25,3 +25,10 @@
 #output
     0
 #endtest
+
+#input
+    45
+    55
+#output
+    2
+#endtest
