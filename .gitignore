@@ -1,4 +1,5 @@
-# Project exclude paths
-/.idea/
-/cmake-build-debug/
-/build/
+.vs/
+cmake-build-debug/
+out/
+.idea/
+build/
